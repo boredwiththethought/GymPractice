@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'GeistMono';
+  src: url(./GeistMono-VariableFont_wght.woff2) format('woff2-variations');
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
