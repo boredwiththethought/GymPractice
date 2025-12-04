@@ -37,19 +37,17 @@
     line-height: 131%;
     letter-spacing: -3%;
   }
-}
 
-@layer components {
   .paragraph-1 {
     font-family: "Geist";
-    font-weight: regular;
+    font-weight: normal;
     font-size: 17px;
     line-height: 131%;
     letter-spacing: -3%;
   }
   .paragraph-2 {
     font-family: "Geist";
-    font-weight: regular;
+    font-weight: normal;
     font-size: 15px;
     line-height: 131%;
     letter-spacing: 1%;
@@ -61,23 +59,20 @@
     line-height: 131%;
     letter-spacing: 1%;
   }
-}
 
-@layer components {
   .links-nav {
     font-family: "GeistMono";
-    font-weight: regular;
+    font-weight: normal;
     font-size: 15px;
     line-height: 110%;
     letter-spacing: -1%;
   }
+
   .links-button {
     font-family: "GeistMono";
-    font-weight: regular;
+    font-weight: normal;
     font-size: 15px;
     line-height: 110%;
     letter-spacing: -1%;
   }
 }
-
-
