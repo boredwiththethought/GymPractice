@@ -1,3 +1,5 @@
+import { colors } from "./src/assets/colors/colors"
+
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -7,6 +9,7 @@ export default {
         'geist-mono': ['"GeistMono"', 'monospace'],
         'anek-tamil': ['"AnekTamil"', 'serif'],
       },
+      colors: colors,
     },
   },
   plugins: [],

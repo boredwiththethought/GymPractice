@@ -9,10 +9,52 @@
     line-height: 80%;
     letter-spacing: -5%;
   }
+  .headline-1_md {
+    font-family: "AnekTamil";
+    font-weight: bolder;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: -5%;
+  }
+  .headline-1_lg {
+    font-family: "AnekTamil";
+    font-weight: bolder;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: -5%;
+  }
+  .headline-1_xl {
+    font-family: "AnekTamil";
+    font-weight: bolder;
+    font-size: 116px;
+    line-height: 110%;
+    letter-spacing: -5%;
+  }
   .headline-2 {
     font-family: "AnekTamil";
     font-weight: bold;
     font-size: 28px;
+    line-height: 91%;
+    letter-spacing: -3%;
+  }
+  .headline-2_md {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 91%;
+    letter-spacing: -3%;
+  }
+  .headline-2_lg {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 91%;
+    letter-spacing: -5%;
+  }
+  .headline-2_xl {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 45px;
     line-height: 91%;
     letter-spacing: -3%;
   }
@@ -23,10 +65,52 @@
     line-height: 100%;
     letter-spacing: -5%;
   }
+  .headline-3_md {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 100%;
+    letter-spacing: -5%;
+  }
+  .headline-3_lg {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 100%;
+    letter-spacing: -5%;
+  }
+  .headline-3_xl {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 100%;
+    letter-spacing: -5%;
+  }
   .headline-4 {
     font-family: "AnekTamil";
     font-weight: bold;
     font-size: 22px;
+    line-height: 91%;
+    letter-spacing: -3%;
+  }
+  .headline_4_md {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 91%;
+    letter-spacing: -3%;
+  }
+  .headline_4_lg {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 91%;
+    letter-spacing: -3%;
+  }
+  .headline_4_xl {
+    font-family: "AnekTamil";
+    font-weight: bold;
+    font-size: 25px;
     line-height: 91%;
     letter-spacing: -3%;
   }
@@ -45,19 +129,82 @@
     line-height: 131%;
     letter-spacing: -3%;
   }
+  .paragraph-1_md {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 131%;
+    letter-spacing: -3%;
+  }
+  .paragraph-1_lg {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 131%;
+    letter-spacing: -3%;
+  }
+  .paragraph-1_xl {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 131%;
+    letter-spacing: -3%;
+  }
   .paragraph-2 {
     font-family: "Geist";
     font-weight: normal;
     font-size: 15px;
     line-height: 131%;
-    letter-spacing: 1%;
+    letter-spacing: 0;
+  }
+  .paragraph-2_md {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 131%;
+    letter-spacing: 0;
+  }
+  .paragraph-2_lg {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 131%;
+    letter-spacing: 0;
+  }
+  .paragraph-2_xl {
+    font-family: "Geist";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 131%;
+    letter-spacing: 0;
   }
   .paragraph-3 {
     font-family: "Geist";
     font-weight: bold;
     font-size: 14px;
     line-height: 131%;
-    letter-spacing: 1%;
+    letter-spacing: 0;
+  }
+  .paragraph-3_md {
+    font-family: "Geist";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 131%;
+    letter-spacing: 0;
+  }
+  .paragraph-3_lg {
+    font-family: "Geist";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 131%;
+    letter-spacing: 0;
+  }
+  .paragraph-3_xl {
+    font-family: "Geist";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 131%;
+    letter-spacing: 0;
   }
 
   .links-nav {

@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import ClassCard from "./components/card/ClassCard";
+import NavBar from "./components/nav/NavBar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -8,14 +9,10 @@ function App() {
         <Route
           path="/"
           element={
-            <ClassCard
-              title={"Strength"}
-              descriptionTime={"Weekdays at 6AM"}
-              secondaryDescriptionTime={"Weekends and Holidays at 8AM"}
-              mainDescription={
-                "Build a foundation of raw power with our comprehensive weightlifting and strength training programs."
-              }
-            />
+            <>
+              <NavBar />
+              <Footer />
+            </>
           }
         />
       </Routes>
