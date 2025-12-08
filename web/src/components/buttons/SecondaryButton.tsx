@@ -1,12 +1,13 @@
 interface SecondaryButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
+  className?: string;
 }
 
-export function SecondaryButton({ children, onClick }: SecondaryButtonProps) {
+export function SecondaryButton({ children, onClick, className }: SecondaryButtonProps) {
   return (
     <button
-      className="links-button flex cursor-pointer items-center justify-center gap-[7.25px] rounded-[7.25px] bg-[#E9ECFF] px-4 py-3 text-black hover:bg-black hover:text-white"
+      className={`links-button flex cursor-pointer items-center justify-center gap-[7.25px] rounded-[7.25px] bg-[#E9ECFF] px-4 py-3 text-black hover:bg-black hover:text-white ${className}`}
       onClick={onClick}
     >
       {children}
@@ -14,4 +15,4 @@ export function SecondaryButton({ children, onClick }: SecondaryButtonProps) {
   );
 }
 
-export default SecondaryButton;
+export default SecondaryButton;   

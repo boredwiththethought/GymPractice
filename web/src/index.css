@@ -8,27 +8,28 @@
     font-size: 37px;
     line-height: 80%;
     letter-spacing: -5%;
+    color: inherit;
   }
-  .headline-1_md {
-    font-family: "AnekTamil";
-    font-weight: bolder;
-    font-size: 71px;
-    line-height: 110%;
-    letter-spacing: -5%;
+
+  @media (min-width: 768px) {
+    .headline-1 {
+      font-size: 71px;
+      line-height: 110%;
+    }
   }
-  .headline-1_lg {
-    font-family: "AnekTamil";
-    font-weight: bolder;
-    font-size: 71px;
-    line-height: 110%;
-    letter-spacing: -5%;
+
+  @media (min-width: 1024px) {
+    .headline-1 {
+      font-size: 71px;
+      line-height: 110%;
+    }
   }
-  .headline-1_xl {
-    font-family: "AnekTamil";
-    font-weight: bolder;
-    font-size: 116px;
-    line-height: 110%;
-    letter-spacing: -5%;
+
+  @media (min-width: 1280px) {
+    .headline-1 {
+      font-size: 116px;
+      line-height: 110%;
+    }
   }
   .headline-2 {
     font-family: "AnekTamil";
@@ -36,27 +37,31 @@
     font-size: 28px;
     line-height: 91%;
     letter-spacing: -3%;
+    color: inherit;
   }
-  .headline-2_md {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 91%;
-    letter-spacing: -3%;
+
+  @media (min-width: 768px) {
+    .headline-2 {
+      font-size: 36px;
+      line-height: 91%;
+      letter-spacing: -3%;
+    }
   }
-  .headline-2_lg {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 91%;
-    letter-spacing: -5%;
+
+  @media (min-width: 1024px) {
+    .headline-2 {
+      font-size: 36px;
+      line-height: 91%;
+      letter-spacing: -5%;
+    }
   }
-  .headline-2_xl {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 91%;
-    letter-spacing: -3%;
+
+  @media (min-width: 1280px) {
+    .headline-2 {
+      font-size: 45px;
+      line-height: 91%;
+      letter-spacing: -3%;
+    }
   }
   .headline-3 {
     font-family: "AnekTamil";
@@ -64,27 +69,31 @@
     font-size: 44px;
     line-height: 100%;
     letter-spacing: -5%;
+    color: inherit;
   }
-  .headline-3_md {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 57px;
-    line-height: 100%;
-    letter-spacing: -5%;
+
+  @media (min-width: 768px) {
+    .headline-3 {
+      font-size: 57px;
+      line-height: 100%;
+      letter-spacing: -5%;
+    }
   }
-  .headline-3_lg {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 57px;
-    line-height: 100%;
-    letter-spacing: -5%;
+
+  @media (min-width: 1024px) {
+    .headline-3 {
+      font-size: 57px;
+      line-height: 100%;
+      letter-spacing: -5%;
+    }
   }
-  .headline-3_xl {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 57px;
-    line-height: 100%;
-    letter-spacing: -5%;
+
+  @media (min-width: 1280px) {
+    .headline-3 {
+      font-size: 57px;
+      line-height: 100%;
+      letter-spacing: -5%;
+    }
   }
   .headline-4 {
     font-family: "AnekTamil";
@@ -92,27 +101,31 @@
     font-size: 22px;
     line-height: 91%;
     letter-spacing: -3%;
+    color: inherit;
   }
-  .headline_4_md {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 91%;
-    letter-spacing: -3%;
+
+  @media (min-width: 768px) {
+    .headline-4 {
+      font-size: 25px;
+      line-height: 91%;
+      letter-spacing: -3%;
+    }
   }
-  .headline_4_lg {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 91%;
-    letter-spacing: -3%;
+
+  @media (min-width: 1024px) {
+    .headline-4 {
+      font-size: 25px;
+      line-height: 91%;
+      letter-spacing: -3%;
+    }
   }
-  .headline_4_xl {
-    font-family: "AnekTamil";
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 91%;
-    letter-spacing: -3%;
+
+  @media (min-width: 1280px) {
+    .headline-4 {
+      font-size: 25px;
+      line-height: 91%;
+      letter-spacing: -3%;
+    }
   }
   .headline-5 {
     font-family: "AnekTamil";
@@ -120,6 +133,7 @@
     font-size: 22px;
     line-height: 131%;
     letter-spacing: -3%;
+    color: inherit;
   }
 
   .paragraph-1 {
@@ -128,27 +142,13 @@
     font-size: 17px;
     line-height: 131%;
     letter-spacing: -3%;
+    color: inherit;
   }
-  .paragraph-1_md {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 131%;
-    letter-spacing: -3%;
-  }
-  .paragraph-1_lg {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 131%;
-    letter-spacing: -3%;
-  }
-  .paragraph-1_xl {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 131%;
-    letter-spacing: -3%;
+
+  @media (min-width: 1280px) {
+    .paragraph-1 {
+      font-size: 19px;
+    }
   }
   .paragraph-2 {
     font-family: "Geist";
@@ -156,27 +156,13 @@
     font-size: 15px;
     line-height: 131%;
     letter-spacing: 0;
+    color: inherit;
   }
-  .paragraph-2_md {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 131%;
-    letter-spacing: 0;
-  }
-  .paragraph-2_lg {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 131%;
-    letter-spacing: 0;
-  }
-  .paragraph-2_xl {
-    font-family: "Geist";
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 131%;
-    letter-spacing: 0;
+
+  @media (min-width: 1280px) {
+    .paragraph-2 {
+      font-size: 17px;
+    }
   }
   .paragraph-3 {
     font-family: "Geist";
@@ -184,27 +170,7 @@
     font-size: 14px;
     line-height: 131%;
     letter-spacing: 0;
-  }
-  .paragraph-3_md {
-    font-family: "Geist";
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 131%;
-    letter-spacing: 0;
-  }
-  .paragraph-3_lg {
-    font-family: "Geist";
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 131%;
-    letter-spacing: 0;
-  }
-  .paragraph-3_xl {
-    font-family: "Geist";
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 131%;
-    letter-spacing: 0;
+    color: inherit;
   }
 
   .links-nav {
@@ -213,6 +179,7 @@
     font-size: 15px;
     line-height: 110%;
     letter-spacing: -1%;
+    color: inherit;
   }
 
   .links-button {
@@ -221,5 +188,6 @@
     font-size: 15px;
     line-height: 110%;
     letter-spacing: -1%;
+    color: inherit;
   }
 }

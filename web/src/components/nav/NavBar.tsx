@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
           <Link to="/about" className="links-nav uppercase">
             About
           </Link>
-          <PrimaryButton className="links-nav uppercase" onClick={() => (window.location.href = "/")}>
+          <PrimaryButton className="links-nav uppercase" onClick={() => (window.location.href = "/reserve")}>
             reserve your spot
           </PrimaryButton>
         </div>
