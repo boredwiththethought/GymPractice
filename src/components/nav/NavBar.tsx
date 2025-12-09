@@ -17,6 +17,7 @@ const NavBar: React.FC = () => {
         {/* Logo */}
         <div className="logo flex items-center gap-1">
           <img src="../../../public/nav/nav-logo.png" alt="nav-logo" />
+          <img src="/nav/nav-logo.png" alt="nav-logo" />
           <h1 className="headline-4">PrimalTraining</h1>
         </div>
 

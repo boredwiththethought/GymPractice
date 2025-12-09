@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 const MainContent = () => {
   return (
-    <main className="pt-2.5 w-full">
+    <main className="w-full pt-2.5">
       <h1 className="headline-1 px-5 uppercase">
         join the <span className="text-[#808DFD]">community</span>
       </h1>
       <div className="flex border-t bg-[#E9ECFF]">
-        <div className="flex flex-col max-w-[426px] max-h-[600px]">
+        <div className="flex max-h-[600px] max-w-[426px] flex-col">
           {/* Main content goes here */}
           <div className="px-5 py-8">
             <p className="headline-2 uppercase">discover your potential</p>
@@ -28,7 +28,8 @@ const MainContent = () => {
           </Link>
         </div>
         <div className="flex-1">
-          <img src="../../../public/home/main/Image.png" alt="" className="w-full h-full max-h-[600px] object-cover" />
+          <img src="../../../public/home/main/Image.png" alt="" className="h-full max-h-[600px] w-full object-cover" />
+          <img src="/home/main/Image.png" alt="" className="h-full max-h-[600px] w-full object-cover" />
         </div>
       </div>
     </main>
