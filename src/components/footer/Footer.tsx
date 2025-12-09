@@ -5,9 +5,7 @@ const Footer: React.FC = () => {
     <footer className="bg-[#E9ECFF]">
       <div className="container mx-auto flex px-1 py-[30px] sm:flex-col sm:gap-20 md:flex-col md:gap-[170px]">
         <div className="flex w-full py-5 sm:flex-col md:flex-row md:items-center md:justify-between">
-          <img src="../../../public/footer/Vector (1).png" alt="Logo" className="block sm:hidden" />
           <img src="/footer/Vector (1).png" alt="Logo" className="block sm:hidden" />
-          <img src="../../../public/footer/Vector (2).png" alt="" className="hidden sm:block" />
           <img src="/footer/Vector (2).png" alt="" className="hidden sm:block" />
           <h1 className="text-[52px] leading-[110%] font-bold">PrimalTraining</h1>
         </div>

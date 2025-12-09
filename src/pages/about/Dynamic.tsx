@@ -2,7 +2,6 @@ const Dynamic = () => {
   return (
     <div className="grid w-full grid-cols-3 bg-[#E9ECFF]">
       <div className="col-span-2">
-        <img src="../../../public/about/img-2.jpg" alt="" className="h-auto w-full object-cover" />
         <img src="/about/img-2.jpg" alt="" className="h-auto w-full object-cover" />
       </div>
       <div className="flex flex-col justify-between px-5 py-8">

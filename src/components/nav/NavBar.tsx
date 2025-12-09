@@ -16,7 +16,6 @@ const NavBar: React.FC = () => {
       <nav className="sticky container mx-auto flex w-full items-center justify-between px-8 py-4">
         {/* Logo */}
         <div className="logo flex items-center gap-1">
-          <img src="../../../public/nav/nav-logo.png" alt="nav-logo" />
           <img src="/nav/nav-logo.png" alt="nav-logo" />
           <h1 className="headline-4">PrimalTraining</h1>
         </div>

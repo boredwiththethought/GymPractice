@@ -18,7 +18,6 @@ const OurVision: React.FC = () => {
         </div>
       </div>
       <div className="flex items-center justify-end">
-        <img src="../../../public/about/Image.jpg" alt="" className="h-full w-full object-cover" />
         <img src="/about/Image.jpg" alt="" className="h-full w-full object-cover" />
       </div>
     </div>
