@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PrimaryButton from "../buttons/PrimaryButton";
 
 const NavBar: React.FC = () => {
@@ -8,6 +9,7 @@ const NavBar: React.FC = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const navigate = useNavigate();
 
   return (
     <div className="bg-[#E9ECFF]">
@@ -26,7 +28,7 @@ const NavBar: React.FC = () => {
           <Link to="/about" className="links-nav uppercase">
             About
           </Link>
-          <PrimaryButton className="links-nav uppercase" onClick={() => (window.location.href = "/reserve")}>
+          <PrimaryButton className="links-nav uppercase" onClick={() => navigate("/reserve")}>
             reserve your spot
           </PrimaryButton>
         </div>

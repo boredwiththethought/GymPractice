@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
         <div className="flex w-full py-5 sm:flex-col md:flex-row md:items-center md:justify-between">
           <img src="../../../public/footer/Vector (1).png" alt="Logo" className="block sm:hidden" />
           <img src="../../../public/footer/Vector (2).png" alt="" className="hidden sm:block" />
-          <h1 className="headline-1 md:headline-1_md lg_headline-1_lg xl:headline-1_xl">PrimalTraining</h1>
+          <h1 className="font-bold text-[52px] leading-[110%]">PrimalTraining</h1>
         </div>
-        <div className="flex pl-4 sm:flex-col sm:gap-10 md:flex-row md:justify-between">
+        <div className="flex px-4 sm:flex-col sm:gap-10 md:flex-row md:justify-between">
           <div className="flex flex-col gap-[15px]">
             <p className="headline-5 uppercase">contact</p>
             <div className="flex flex-col gap-0.5">
