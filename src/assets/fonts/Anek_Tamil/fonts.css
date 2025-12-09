@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'AnekTamil';
+  src: url(./AnekTamil-VariableFont_wdth\,wght.woff2) format('woff2-variations');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AnekTamil';
+  src: url(./AnekTamil-VariableFont_wdth\,wght.woff2) format('woff2-variations');
+  font-weight: bold;
+  font-display: swap;
+}

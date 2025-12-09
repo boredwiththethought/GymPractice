@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Geist';
+  src: url(./Geist-VariableFont_wght.woff2) format('woff2-variations');
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url(./Geist-VariableFont_wght.woff2) format('woff2-variations');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
