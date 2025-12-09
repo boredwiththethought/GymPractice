@@ -28,7 +28,6 @@ const MainContent = () => {
           </Link>
         </div>
         <div className="flex-1">
-          <img src="../../../public/home/main/Image.png" alt="" className="h-full max-h-[600px] w-full object-cover" />
           <img src="/home/main/Image.png" alt="" className="h-full max-h-[600px] w-full object-cover" />
         </div>
       </div>

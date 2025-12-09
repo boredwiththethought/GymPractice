@@ -43,7 +43,6 @@ const Header = () => {
           </p>
         </div>
         <div className="col-span-1 row-span-1 flex items-center justify-center border-t">
-          <img src="../../../public/home/header-2/Image.png" alt="gym" className="h-auto w-full object-cover" />
           <img src="/home/header-2/Image.png" alt="gym" className="h-auto w-full object-cover" />
         </div>
       </div>
