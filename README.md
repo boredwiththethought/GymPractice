@@ -59,7 +59,7 @@ public/               # Images, static files
 
 ## ⚠️ Not Implemented
 
-- **Responsive design:** The website is currently not adapted for mobile devices or tablets. The layout is designed for desktop only.
+- **Responsive design:** The website is currently **not adapted for mobile devices or tablets**. The layout is designed **for desktop only (1440px+)**. Mobile responsiveness is planned for future updates.
 
 ---
 
