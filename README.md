@@ -3,6 +3,8 @@
 > A modern website for a fitness club.  
 > React · TypeScript · Vite · Tailwind CSS
 
+### 🔗 [Live Demo](https://gym-practice-two.vercel.app) · [GitHub Repo](https://github.com/boredwiththethought/GymPractice)
+
 ---
 
 ## 🚀 About the Project
